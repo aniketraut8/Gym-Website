@@ -1,0 +1,135 @@
+
+
+main{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+body{
+  
+    background-image: url(img.jpeg);
+
+}
+.hero-img {
+    background-image: url(img.jpeg);
+    
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+section{
+    display: flex;
+    
+    align-items: center;
+    min-height: 100vh;
+    width :100%;
+  
+}
+
+.form-box{
+    width:450px;
+    height:450px;
+    margin:60px ;
+    background: rgba(15, 15, 15, 0.6);
+    text-align: center;
+    padding: 35px;
+    border:3px solid #3e3939;
+    border-radius: 70px 70px 70px 70px;
+    
+}
+
+.form-group{
+ 
+    color:#e05b08;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px 0 15px 0;
+    border :2px solid #fff;
+    margin-bottom: 15px;
+    color: #e4e1e1;
+    background: transparent;
+
+}
+button{
+   
+    display: block;
+    height: 40px;
+    line-height: 40px;
+        text-align: center;
+        background: #4c8eaf ;
+        border-radius: 120px;
+        color: #fffafa;
+        text-transform: uppercase;
+        margin-top: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        letter-spacing: 2px;
+       }
+       button:hover{
+        background-color: red;
+       }
+      
+h2{
+    color: #e05b08;
+    /* text-decoration-line: underline white; */
+    
+}
+.bot{
+    padding-left: 200px;
+    color: #f0e3dc;
+}
+.bot:hover{
+    color: #fcfcfc;
+}
+.ball{ 
+    padding-left: 150px;
+    margin:60px ;   
+}
+p{
+    color: #f7f0f0;
+  
+}
+.hover a{
+    color:#a6f3e1;
+}
+.gym {
+    opacity:initial;
+    justify-content: center;
+    padding-left: 50px;
+    margin: auto;
+
+    color: #f4f4f3;
+    font-size: 20px;
+    writing-mode:horizontal-tb;
+    line-height: 0.9;
+        
+}
+#u{
+    width: 50px;
+    height: 60px ;
+}
+/* .gym1{
+    font-size: 70px;
+    color: #e05b08;
+    padding: px 40px 0px 40px;
+} */
+.gym2 {
+    font-style: italic;
+    max-height: 300px;
+    max-width: 600px;
+    margin: 4px 0px 0px 0px;
+    padding: 5%;
+}
+
+.gym5{
+    color: #e05b08;
+    font-size: 60px;
+}
